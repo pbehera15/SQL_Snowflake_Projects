@@ -1,1 +1,2 @@
 # SQL_Snowflake_Projects
+Welcome to my Snowflake Analytics Portfolio. This repository contains a curated collection of my end-to-end data analytics projects built using Snowflake. Each project showcases my ability to work with real datasets, write optimized SQL queries and generate insights that support decision-making. My projects cover everything from basics to advanced analytical SQL including CTEs, subqueries and window functions.
