@@ -1,3 +1,4 @@
+---- Analyzed NOAA storm data to extract insights on event locations, severity, impacts and damages demonstrating how large-scale environmental data can inform risk assessment and decision-making
 --QUERY #1: What have been our top 5 most common sources of severe weather information?
 SELECT source,
 COUNT(event_id) AS num_of_events
@@ -96,3 +97,4 @@ ON state_area_km.state_fips_code = storm_count_by_state.state_fips_code
 SELECT*
 FROM storms_per_sq_land_km
 ORDER BY storms_per_sq_land_km DESC;
+
