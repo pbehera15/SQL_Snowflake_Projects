@@ -1,3 +1,4 @@
+/* Analysis of U.S.Census Bureau datasets evaluating demographic,population and growth trends to identify high potential markets for business expansion*/
 /* Query1.Calculate the total population by reporting year.*/ 
 SELECT reporting_year,
        SUM(population_total) AS total_population
@@ -67,4 +68,5 @@ GROUP BY state_name,
          county
 HAVING total_children_in_grades_1_8 >= 100000 
 ORDER BY state_name,
+
          county;
