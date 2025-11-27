@@ -1,3 +1,4 @@
+--/* Analysis of U.S.Census Bureau datasets evaluating demographic,population and growth trends to identify high potential markets for business expansion*/
 /*Query #1: Identify zip codes with high % of people with advance degree*/
 SELECT zip_code,
 (education_masters_degree/population_total) AS percentage_masters,
@@ -49,4 +50,5 @@ ORDER BY percentage_change_in_residents DESC
 )
 SELECT * FROM population_growth
 ORDER BY percentage_change_in_residents DESC
+
 LIMIT 10;
