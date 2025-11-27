@@ -1,3 +1,4 @@
+-- Analyzed NOAA storm data to extract insights on event locations, severity, impacts and damages demonstrating how large-scale environmental data can inform risk assessment and decision-making
 --QUERY #1: Count the number of storm events and sum the amount of crop damage by reference location.
 SELECT
 COUNT(event_id)AS no_of_events,
@@ -88,4 +89,5 @@ CREATE TABLE state_sizes_dev CLONE state_sizes;
 --QUERY #11: Look up recent query history.
 SELECT *
 FROM table(information_schema.query_history())
+
 ORDER BY start_time DESC;
